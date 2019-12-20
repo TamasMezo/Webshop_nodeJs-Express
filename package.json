@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_full",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesignerTM/NodeJS_Full.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codesignerTM/NodeJS_Full/issues"
+  },
+  "homepage": "https://github.com/codesignerTM/NodeJS_Full#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
