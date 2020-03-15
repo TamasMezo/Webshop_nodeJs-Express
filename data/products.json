@@ -1,1 +1,9 @@
-[{"descriptiontitle":"Mercedes GLC","imageUrl":"https://cdn.motor1.com/images/mgl/Z2PX2/s1/mercedes-benz-glc-2019.jpg","description":"Best car ever!","price":"12000000"}]
+[
+  {
+    "id": "43432",
+    "descriptiontitle": "Mercedes GLC",
+    "imageUrl": "https://cdn.motor1.com/images/mgl/Z2PX2/s1/mercedes-benz-glc-2019.jpg",
+    "description": "Best car ever!",
+    "price": "12000000"
+  }
+]
