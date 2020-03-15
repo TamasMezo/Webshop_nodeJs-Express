@@ -13,6 +13,8 @@ router.get("/products/:productId", shopController.getProduct);
 
 router.get("/cart", shopController.getCart);
 
+router.post("/cart", shopController.getCheckout);
+
 router.get("/orders", shopController.getOrders);
 
 router.get("/checkut", shopController.getCheckout);

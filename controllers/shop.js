@@ -52,6 +52,12 @@ exports.getOrders = (req, res, next) => {
 };
 
 exports.getCheckout = (req, res, next) => {
+  const productId = req.body.productId;
+  console.log(productId);
+  res.redirect("/cart");
+};
+
+exports.postCart = (req, res, next) => {
   Product.fetchAll(products => {
     res.render("shop/checkout", {
       prods: products,
